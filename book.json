@@ -1,0 +1,29 @@
+{
+    "title": "虚拟现实技术专业-过渡教程-1",
+    "author": "",
+    "description": "vr-bridging-tutorial-1",
+    "language": "zh-hans",
+
+    "plugins": [
+        "-sharing",
+        "-lunr",
+        "-search",
+        "katex",
+        "multipart",
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "tbfed-pagefooter",
+        "code",
+        "search-pro"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "modify_label": "文档修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+
+    "generator": "site",
+    "root": "tutorial"
+}
