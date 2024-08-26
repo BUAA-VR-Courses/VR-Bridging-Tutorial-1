@@ -9,3 +9,8 @@
 特别鸣谢：
 - [jayfeather9](https://github.com/jayfeather9)
 - 参与课程的所有同学
+
+参考：
+- [CPP Reference](https://zh.cppreference.com/w/cpp)
+- [Effective C++](https://wizardforcel.gitbooks.io/effective-cpp)
+- [Effective Modern C++](https://cntransgroup.github.io/EffectiveModernCppChinese/)

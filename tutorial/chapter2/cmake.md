@@ -148,7 +148,7 @@ include_directories(${PROJECT_NAME} PRIVATE
 
 `add_executable(${PROJECT_NAME} ${PRJ_SRC})`告诉CMake生成一个可执行文件，可执行文件的名称为`${PROJECT_NAME}`，源文件为`PRJ_SRC`。
 
-`include_directories(${PROJECT_NAME} PRIVATE ${SRC})`告诉CMake在编译时包含`SRC`目录，在`add.h`中使用`#include "add.h"`时，CMake会在`SRC`目录中查找。
+`include_directories(${PROJECT_NAME} PRIVATE ${SRC})`告诉CMake在编译时包含`SRC`目录，在`*.cpp`中使用`#include "add.h"`时，CMake会在`SRC`目录中查找。
 
 最后我们在`main.cpp`中测试我们的修改：
 
@@ -164,9 +164,9 @@ int main() {
 
 然后在重新运行项目，你会看到输出`3`。
 
-> 如果出现错误，可以尝试重新生成CMake缓存。（右键CMakeLists.txt -> 删除缓存并重新配置）
+> 如果出现错误，可以尝试重新生成CMake缓存（右键CMakeLists.txt -> 删除缓存并重新配置）。
 
-至此，在当前的项目上进行一些拓展，你已经可以使用CMake来构建一个简单的项目了。
+至此，在当前的项目基础上，你已经可以使用CMake来构建一个简单的项目了。
 
 ### CMake进阶
 
