@@ -14,6 +14,7 @@
     * [运算符重载](chapter3/operator.md)
     * [模板](chapter3/template.md)
     * [STL](chapter3/stl.md)
+    * [auto](chapter3/auto.md)
 * [进阶](chapter4/readme.md)
     * [RAII](chapter4/raii.md)
     * [CRTP](chapter4/crtp.md)

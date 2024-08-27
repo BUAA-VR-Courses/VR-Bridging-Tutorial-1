@@ -168,6 +168,8 @@ int main() {
 
 至此，在当前的项目基础上，你已经可以使用CMake来构建一个简单的项目了。
 
+> 你可能会注意到，`#include`后出现了`"math/add.h"`和`<iostream>`，这两种方式的区别在于：前者的引用只会在当前目录下查找，后者优先在系统的标准库目录下查找。
+
 ### CMake进阶
 
 参考[官方文档](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)，也可以在网络上搜索一些中文的教程。
