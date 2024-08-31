@@ -6,9 +6,6 @@
 
 仓库地址：[https://github.com/BUAA-VR-Courses/VR-Bridging-Tutorial-1](https://github.com/BUAA-VR-Courses/VR-Bridging-Tutorial-1)
 
-特别鸣谢：
-- [jayfeather9](https://github.com/jayfeather9)
-
 参考：
 - [C++ Reference](https://zh.cppreference.com/w/cpp)
 - [Effective C++](https://wizardforcel.gitbooks.io/effective-cpp)

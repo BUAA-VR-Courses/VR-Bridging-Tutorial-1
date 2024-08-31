@@ -18,6 +18,5 @@
 * [进阶](chapter4/readme.md)
     * [RAII](chapter4/raii.md)
     * [CRTP](chapter4/crtp.md)
-    * [多线程](chapter4/thread.md)
     * [Modern C++](chapter4/modern.md)
 * [后记](postscript.md)
