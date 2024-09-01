@@ -317,6 +317,46 @@ int main() {
 }
 ```
 
+需要注意的是，如果这个类本身是一个基类，那么析构函数应该是虚函数，以便在派生类对象被销毁时正确调用析构函数（先自动调用派生类的析构函数，再自动调用基类的析构函数）。
+
+```cpp
+
+#include <iostream>
+
+class Base {
+public:
+    Base() { std::cout << "Base constructor\n"; }
+    virtual ~Base() { std::cout << "Base destructor\n"; }
+};
+
+class Derived : public Base {
+public:
+    Derived() { std::cout << "Derived constructor\n"; }
+    ~Derived() { std::cout << "Derived destructor\n"; }
+};
+
+int main() {
+    std::cout << "Creating a Derived object:\n";
+    {
+        Derived d;
+    }
+    std::cout << "Derived object going out of scope\n";
+    
+    return 0;
+}
+```
+
+上面的代码输出：
+
+```
+Creating a Derived object:  
+Base constructor  
+Derived constructor  
+Derived object going out of scope  
+Derived destructor  
+Base destructor
+```
+
 #### 拷贝构造函数 (Copy Constructor)
 
 拷贝构造函数用于创建一个新对象作为已存在对象的副本。它在以下情况下被调用:
