@@ -11,7 +11,9 @@ VSCode是一个轻量级的代码**编辑器**，可以通过插件扩展功能�
 2. [下载MinGW](https://sourceforge.net/projects/mingw/)，然后将MinGW下bin的完整路径粘贴到系统变量的Path中。在命令行中输入`gcc -v`和`g++ -v`检验是否安装成功。
 3. 在VSCode中安装C/C++的插件和CMake Tools插件。
 4. 在弹出窗口中选择1.中安装的GCC mingw编译器。
-5. 在窗口下侧点击 build 进行项目构建，点击窗口下侧三角形符号运行（如果想要使用窗口左上的三角形符号运行需要自行配置）。
+5. **在窗口下侧点击 build 进行项目构建，点击窗口下侧三角形符号运行（如果想要使用窗口左上的三角形符号运行需要自行配置）**。
+
+> 提醒：在第一次作业中如果遇到glad/glad.h缺失的问题请仔细按照上述操作尝试
 
 如果不想使用GCC作为编译器，可以在[LLVM官网](https://releases.llvm.org/download.html)下载Windows版本的Clang作为编译器前端，然后仍然使用MSVC的工具链。
 
