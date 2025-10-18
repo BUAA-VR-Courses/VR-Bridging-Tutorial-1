@@ -21,4 +21,5 @@
     * [Modern C++](chapter4/modern.md)
 * [OpenGL](chapter5/readme.md)
     * [渲染流程](chapter5/openGL.md)
+    * [DeBug](chapter5/DeBug.md)
 * [后记](postscript.md)
